@@ -27,14 +27,17 @@ export default {
 .custom-card{
     background-color:$card-background;
     text-align: center;
+    margin: 10px;
 }
 img{
-    width: 100%;
+    width: 60%;
 }
 .title{
+    padding-top: 10px;
     color: $album-title;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 16px;
+    text-transform: uppercase;
 }
 .author, .year{
     color:$album-info;

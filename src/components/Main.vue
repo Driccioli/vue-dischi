@@ -1,6 +1,6 @@
 <template>
-  <div class="row justify-content-center align-items-baseline flex-wrap">
-      <Card class="col-2" v-for="(album,index) in albums" :key="index"
+  <div class="row justify-content-center flex-wrap">
+      <Card class="col-2 pt-2 pb-2" v-for="(album,index) in albums" :key="index"
                 :poster="album.poster"
                 :title="album.title"
                 :author="album.author"
