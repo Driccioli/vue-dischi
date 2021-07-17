@@ -7,22 +7,20 @@
                 :genre="album.genre"
                 :year="album.year"
         />
-        <Loader v-if="albums.length!=10"/>
+        
   </div>
 </template>
 
 <script>
 import Card from "./Card.vue";
-import Loader from "./Loader.vue";
 export default {
   name: "Main",
   components: {
       Card,
-      Loader,
   },
   props:{
       albums: Array,
-  }
+  },
 };
 </script>
 

@@ -1,12 +1,16 @@
 <template>
-    <div class="p-2">
+    <div class="p-2 d-flex justify-content-between align-items-center">
         <img src="../assets/spotify-logo.png" alt="Spotify logo">
+        
     </div>
 </template>
 
 <script>
+// import Select from "./Select.vue";
 export default {
     name:"Header",
+    components:{
+    },
 }
 </script>
 
